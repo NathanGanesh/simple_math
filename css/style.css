@@ -1,0 +1,84 @@
+/* css reset */
+html {
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.container{
+    padding: 20px;
+    max-width: 1100px;
+    height: 100vh;
+}
+
+/* header */
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.inp-icon{
+background: url(https://i.imgur.com/kSROoEB.png) no-repeat 100%;
+background-size: 16px;
+ }
+
+ #input_container{
+     background-color: purple;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+ }
+
+ .nav{
+     background-color: yellow;
+     margin-top: 10px;
+     padding-top: 10px;
+     padding-bottom: 25px;
+ }
+
+ .nav ul {
+     display: flex;
+     justify-content: space-evenly;
+ }
+
+ .section{
+     margin-top: 25px;
+     padding-top: 25px;
+     background-color: green;
+     padding-bottom: 50px;
+ }
+
+ .do-you-need-help h2{
+    font-size: 48px;
+ }
